@@ -1,0 +1,18 @@
+{
+    "name": "takeshi/php-package-study",
+    "description": "勉強",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Takeshi\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
